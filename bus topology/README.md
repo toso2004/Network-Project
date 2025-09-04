@@ -8,8 +8,8 @@ A bus topology consists of a connection in which all devices share a single cent
 4 Switches were used imitate the backbone found in the bus topology. The switches allowed for the connection of the PCs together.
 A coaxial cable was used. It is usually the cable that is used in to connect devices in the bus topology.
 
-#3. IP Adrssing Scheme
- -----------------------------------------------------------------------------------------------------------------------------------------------
+#3. IP Adressing Scheme
+
 | Device | IPv4 Address| IPv6 Address     | Subnet Mask     | IPv4 Default Gateway    |IPv6 Default Gateway| IPv4 DNS Server | IPv6 DNS Server  |
 |--------|-------------|------------------|-----------------|-------------------------|--------------------|-----------------|----------------- |
 | PC0    | 192.168.1.2 | 2001:DB8:1::2/64 | 255.255.255.0   |192.168.1.1              |2001:DB8:1::1       | 192.168.1.100   | 2001:DB8:1::100  |
@@ -19,7 +19,7 @@ A coaxial cable was used. It is usually the cable that is used in to connect dev
 | PC2    | 192.168.1.4 | 2001:DB8:1::4/64 | 255.255.255.0   |192.168.1.1              |2001:DB8:1::1       | 192.168.1.100   | 2001:DB8:1::100  |
 | -------|-------------|------------------|-----------------|-------------------------|--------------------|-----------------|------------------|
 | PC3    | 192.168.1.5 | 2001:DB8:1::5/64 | 255.255.255.0   |192.168.1.1              |2001:DB8:1::1       | 192.168.1.100   | 2001:DB8:1::100  |
-| -------|-------------|------------------|-----------------|-------------------------|--------------------|-----------------|------------------|
+
 
 #4. Configuration
 
