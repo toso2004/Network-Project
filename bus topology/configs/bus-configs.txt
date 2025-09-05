@@ -1,1 +1,53 @@
+# Bus Topology Network Configuration
+
+------------------------------------------------------------
+Devices and Addressing Scheme
+------------------------------------------------------------
+PC0
+  IPv4 Address:        192.168.1.2
+  Subnet Mask:         255.255.255.0
+  Default Gateway:     192.168.1.1
+  IPv6 Address:        2001:DB8:1::2/64
+  IPv6 Gateway:        2001:DB8:1::1
+  DNS (IPv4):          192.168.1.100
+  DNS (IPv6):          2001:DB8:1::100
+
+PC1
+  IPv4 Address:        192.168.1.3
+  Subnet Mask:         255.255.255.0
+  Default Gateway:     192.168.1.1
+  IPv6 Address:        2001:DB8:1::3/64
+  IPv6 Gateway:        2001:DB8:1::1
+  DNS (IPv4):          192.168.1.100
+  DNS (IPv6):          2001:DB8:1::100
+
+PC2
+  IPv4 Address:        192.168.1.4
+  Subnet Mask:         255.255.255.0
+  Default Gateway:     192.168.1.1
+  IPv6 Address:        2001:DB8:1::4/64
+  IPv6 Gateway:        2001:DB8:1::1
+  DNS (IPv4):          192.168.1.100
+  DNS (IPv6):          2001:DB8:1::100
+
+PC3
+  IPv4 Address:        192.168.1.5
+  Subnet Mask:         255.255.255.0
+  Default Gateway:     192.168.1.1
+  IPv6 Address:        2001:DB8:1::5/64
+  IPv6 Gateway:        2001:DB8:1::1
+  DNS (IPv4):          192.168.1.100
+  DNS (IPv6):          2001:DB8:1::100
+
+------------------------------------------------------------
+Router (Default Gateway)
+------------------------------------------------------------
+  Interface IPv4:      192.168.1.1/24
+  Interface IPv6:      2001:DB8:1::1/64
+
+------------------------------------------------------------
+DNS Server
+------------------------------------------------------------
+  IPv4 Address:        192.168.1.100
+  IPv6 Address:        2001:DB8:1::100/64
 
