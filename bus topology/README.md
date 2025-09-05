@@ -60,8 +60,9 @@ A bus topology consists of a connection in which all devices share a single cent
 
 #6. Screenshots
 - Bus Topology set up
-  
-<img width="1918" height="1078" alt="Bus Topology" src="https://github.com/user-attachments/assets/a80aad76-f344-4713-8408-96defa2ee93f" />
+
+<img width="1917" height="1027" alt="Bus Topology" src="https://github.com/user-attachments/assets/1449d903-026b-4004-a7f1-77e26b8489fc" />
+
 
 
 #7. Observations
