@@ -19,6 +19,13 @@ The Mesh topology is a networking set up where every device is connected to ever
 
 #4. Configuration
 
+- PC0: IPv4: 192.168.1.2 SM: 255.255.255.0 IPv4 GW: 192.168.1.1 IPv6: 2001:DB8:1::2/64 IPv6 GW: 2001:DB8:1::1 DNS: 192.168.1.100
+
+- PC1: IPv4: 192.168.1.3 SM: 255.255.255.0 IPv4 GW: 192.168.1.1 IPv6: 2001:DB8:1::3/64 IPv6 GW: 2001:DB8:1::1 DNS: 192.168.1.100
+
+- PC2: IPv4: 192.168.1.4 SM: 255.255.255.0 IPv4 GW: 192.168.1.1 IPv6: 2001:DB8:1::4/64 IPv6 GW: 2001:DB8:1::1 DNS: 192.168.1.100
+
+- PC3: IPv4: 192.168.1.5 SM: 255.255.255.0 IPv4 GW: 192.168.1.1 IPv6: 2001:DB8:1::5/64 IPv6 GW: 2001:DB8:1::1 DNS: 192.168.1.100
 
 #5. Testing
 #6. Screenshots
