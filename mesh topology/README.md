@@ -4,9 +4,13 @@ The Mesh topology is a networking set up where every device is connected to ever
 
 #2. Devices Used
 
-
+6 PCs
+4 switches 
 
 #3. IP Adrssing Scheme
+
+
+
 #4. Configuration
 #5. Testing
 #6. Screenshots
