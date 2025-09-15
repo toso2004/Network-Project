@@ -1,4 +1,4 @@
-# Extende Star Topology Network Configuration
+# Extended Star Topology Network Configuration
 
 ------------------------------------------------------------
 Devices and Addressing Scheme
