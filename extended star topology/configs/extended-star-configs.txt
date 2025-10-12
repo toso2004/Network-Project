@@ -1,124 +1,205 @@
-# Extended Star Topology Network Configuration
-
-------------------------------------------------------------
-Devices and Addressing Scheme
-------------------------------------------------------------
+✨ Extended Star Topology Network Configuration
+💻 Devices and Addressing Scheme
 PC0
-  IPv4 Address:        192.168.1.2
-  Subnet Mask:         255.255.255.0
-  Default Gateway:     192.168.1.1
-  IPv6 Address:        2001:DB8:1::2/64
-  IPv6 Gateway:        2001:DB8:1::1
-  DNS (IPv4):          192.168.1.100
-  DNS (IPv6):          2001:DB8:1::100
+
+IPv4 Address: 192.168.1.2
+
+Subnet Mask: 255.255.255.0
+
+Default Gateway: 192.168.1.1
+
+IPv6 Address: 2001:DB8:1::2/64
+
+IPv6 Gateway: 2001:DB8:1::1
+
+DNS (IPv4): 192.168.1.100
+
+DNS (IPv6): 2001:DB8:1::100
 
 PC1
-  IPv4 Address:        192.168.1.3
-  Subnet Mask:         255.255.255.0
-  Default Gateway:     192.168.1.1
-  IPv6 Address:        2001:DB8:1::3/64
-  IPv6 Gateway:        2001:DB8:1::1
-  DNS (IPv4):          192.168.1.100
-  DNS (IPv6):          2001:DB8:1::100
+
+IPv4 Address: 192.168.1.3
+
+Subnet Mask: 255.255.255.0
+
+Default Gateway: 192.168.1.1
+
+IPv6 Address: 2001:DB8:1::3/64
+
+IPv6 Gateway: 2001:DB8:1::1
+
+DNS (IPv4): 192.168.1.100
+
+DNS (IPv6): 2001:DB8:1::100
 
 PC2
-  IPv4 Address:        192.168.1.4
-  Subnet Mask:         255.255.255.0
-  Default Gateway:     192.168.1.1
-  IPv6 Address:        2001:DB8:1::4/64
-  IPv6 Gateway:        2001:DB8:1::1
-  DNS (IPv4):          192.168.1.100
-  DNS (IPv6):          2001:DB8:1::100
+
+IPv4 Address: 192.168.1.4
+
+Subnet Mask: 255.255.255.0
+
+Default Gateway: 192.168.1.1
+
+IPv6 Address: 2001:DB8:1::4/64
+
+IPv6 Gateway: 2001:DB8:1::1
+
+DNS (IPv4): 192.168.1.100
+
+DNS (IPv6): 2001:DB8:1::100
 
 PC3
-  IPv4 Address:        192.168.1.5
-  Subnet Mask:         255.255.255.0
-  Default Gateway:     192.168.1.1
-  IPv6 Address:        2001:DB8:1::5/64
-  IPv6 Gateway:        2001:DB8:1::1
-  DNS (IPv4):          192.168.1.100
-  DNS (IPv6):          2001:DB8:1::100
+
+IPv4 Address: 192.168.1.5
+
+Subnet Mask: 255.255.255.0
+
+Default Gateway: 192.168.1.1
+
+IPv6 Address: 2001:DB8:1::5/64
+
+IPv6 Gateway: 2001:DB8:1::1
+
+DNS (IPv4): 192.168.1.100
+
+DNS (IPv6): 2001:DB8:1::100
 
 PC4
-  IPv4 Address:        192.168.1.6
-  Subnet Mask:         255.255.255.0
-  Default Gateway:     192.168.1.1
-  IPv6 Address:        2001:DB8:1::6/64
-  IPv6 Gateway:        2001:DB8:1::1
-  DNS (IPv4):          192.168.1.100
-  DNS (IPv6):          2001:DB8:1::100
+
+IPv4 Address: 192.168.1.6
+
+Subnet Mask: 255.255.255.0
+
+Default Gateway: 192.168.1.1
+
+IPv6 Address: 2001:DB8:1::6/64
+
+IPv6 Gateway: 2001:DB8:1::1
+
+DNS (IPv4): 192.168.1.100
+
+DNS (IPv6): 2001:DB8:1::100
 
 PC5
-  IPv4 Address:        192.168.1.7
-  Subnet Mask:         255.255.255.0
-  Default Gateway:     192.168.1.1
-  IPv6 Address:        2001:DB8:1::7/64
-  IPv6 Gateway:        2001:DB8:1::1
-  DNS (IPv4):          192.168.1.100
-  DNS (IPv6):          2001:DB8:1::100
+
+IPv4 Address: 192.168.1.7
+
+Subnet Mask: 255.255.255.0
+
+Default Gateway: 192.168.1.1
+
+IPv6 Address: 2001:DB8:1::7/64
+
+IPv6 Gateway: 2001:DB8:1::1
+
+DNS (IPv4): 192.168.1.100
+
+DNS (IPv6): 2001:DB8:1::100
 
 PC6
-  IPv4 Address:        192.168.1.8
-  Subnet Mask:         255.255.255.0
-  Default Gateway:     192.168.1.1
-  IPv6 Address:        2001:DB8:1::8/64
-  IPv6 Gateway:        2001:DB8:1::1
-  DNS (IPv4):          192.168.1.100
-  DNS (IPv6):          2001:DB8:1::100
+
+IPv4 Address: 192.168.1.8
+
+Subnet Mask: 255.255.255.0
+
+Default Gateway: 192.168.1.1
+
+IPv6 Address: 2001:DB8:1::8/64
+
+IPv6 Gateway: 2001:DB8:1::1
+
+DNS (IPv4): 192.168.1.100
+
+DNS (IPv6): 2001:DB8:1::100
 
 PC7
-  IPv4 Address:        192.168.1.9
-  Subnet Mask:         255.255.255.0
-  Default Gateway:     192.168.1.1
-  IPv6 Address:        2001:DB8:1::9/64
-  IPv6 Gateway:        2001:DB8:1::1
-  DNS (IPv4):          192.168.1.100
-  DNS (IPv6):          2001:DB8:1::100
+
+IPv4 Address: 192.168.1.9
+
+Subnet Mask: 255.255.255.0
+
+Default Gateway: 192.168.1.1
+
+IPv6 Address: 2001:DB8:1::9/64
+
+IPv6 Gateway: 2001:DB8:1::1
+
+DNS (IPv4): 192.168.1.100
+
+DNS (IPv6): 2001:DB8:1::100
 
 PC8
-  IPv4 Address:        192.168.1.10
-  Subnet Mask:         255.255.255.0
-  Default Gateway:     192.168.1.1
-  IPv6 Address:        2001:DB8:1::10/64
-  IPv6 Gateway:        2001:DB8:1::1
-  DNS (IPv4):          192.168.1.100
-  DNS (IPv6):          2001:DB8:1::100
+
+IPv4 Address: 192.168.1.10
+
+Subnet Mask: 255.255.255.0
+
+Default Gateway: 192.168.1.1
+
+IPv6 Address: 2001:DB8:1::10/64
+
+IPv6 Gateway: 2001:DB8:1::1
+
+DNS (IPv4): 192.168.1.100
+
+DNS (IPv6): 2001:DB8:1::100
 
 PC9
-  IPv4 Address:        192.168.1.11
-  Subnet Mask:         255.255.255.0
-  Default Gateway:     192.168.1.1
-  IPv6 Address:        2001:DB8:1::11/64
-  IPv6 Gateway:        2001:DB8:1::1
-  DNS (IPv4):          192.168.1.100
-  DNS (IPv6):          2001:DB8:1::100
+
+IPv4 Address: 192.168.1.11
+
+Subnet Mask: 255.255.255.0
+
+Default Gateway: 192.168.1.1
+
+IPv6 Address: 2001:DB8:1::11/64
+
+IPv6 Gateway: 2001:DB8:1::1
+
+DNS (IPv4): 192.168.1.100
+
+DNS (IPv6): 2001:DB8:1::100
 
 PC10
-  IPv4 Address:        192.168.1.12
-  Subnet Mask:         255.255.255.0
-  Default Gateway:     192.168.1.1
-  IPv6 Address:        2001:DB8:1::12/64
-  IPv6 Gateway:        2001:DB8:1::1
-  DNS (IPv4):          192.168.1.100
-  DNS (IPv6):          2001:DB8:1::100
+
+IPv4 Address: 192.168.1.12
+
+Subnet Mask: 255.255.255.0
+
+Default Gateway: 192.168.1.1
+
+IPv6 Address: 2001:DB8:1::12/64
+
+IPv6 Gateway: 2001:DB8:1::1
+
+DNS (IPv4): 192.168.1.100
+
+DNS (IPv6): 2001:DB8:1::100
 
 PC11
-  IPv4 Address:        192.168.1.13
-  Subnet Mask:         255.255.255.0
-  Default Gateway:     192.168.1.1
-  IPv6 Address:        2001:DB8:1::13/64
-  IPv6 Gateway:        2001:DB8:1::1
-  DNS (IPv4):          192.168.1.100
-  DNS (IPv6):          2001:DB8:1::100
 
-------------------------------------------------------------
-Router (Default Gateway)
-------------------------------------------------------------
-  Interface IPv4:      192.168.1.1/24
-  Interface IPv6:      2001:DB8:1::1/64
+IPv4 Address: 192.168.1.13
 
-------------------------------------------------------------
-DNS Server
-------------------------------------------------------------
-  IPv4 Address:        192.168.1.100
-  IPv6 Address:        2001:DB8:1::100/64
+Subnet Mask: 255.255.255.0
+
+Default Gateway: 192.168.1.1
+
+IPv6 Address: 2001:DB8:1::13/64
+
+IPv6 Gateway: 2001:DB8:1::1
+
+DNS (IPv4): 192.168.1.100
+
+DNS (IPv6): 2001:DB8:1::100
+
+🛣️ Router (Default Gateway)
+
+Interface IPv4: 192.168.1.1/24
+
+Interface IPv6: 2001:DB8:1::1/64
+
+🖧 DNS Server
+
+IPv4 Address: 192.168.1.100
+
+IPv6 Address: 2001:DB8:1::100/64
