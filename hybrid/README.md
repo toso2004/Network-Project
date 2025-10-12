@@ -1,96 +1,100 @@
-# Blatjang Smart City Network Topology
+🏙️ Blatjang Smart City Network Topology
 
-This project showcases a **Smart City network topology** designed to connect and manage different sectors of a city efficiently. The network is divided into **five LANs**, each representing a different department of the city. Each LAN uses a specific network topology based on its operational requirements.
+This project demonstrates a Smart City network topology designed to efficiently connect and manage multiple city sectors. The network is divided into five LANs, each using a topology tailored to its operational requirements.
 
-## Overview
+📌 Overview
 
 The smart city network connects the following LANs:
 
-1. **Traffic Management LAN** – Ring Topology
-2. **Police Station LAN** – Star Topology
-3. **Fire Station LAN** – Star Topology
-4. **Library LAN** – Bus Topology
-5. **Power Grid Monitoring LAN** – Mesh Topology
+Department	Topology
+🛑 Traffic Management	Ring
+👮 Police Station	Star
+🚒 Fire Station	Star
+📚 Library	Bus
+⚡ Power Grid Monitoring	Mesh
 
-A central distribution layer connects all these LANs to ensure communication between departments and provide internet access through a router (not shown in this diagram yet).
+Each LAN is designed to meet reliability, scalability, and cost-efficiency requirements for its specific department.
 
-![Smart City Topology](./hybrid%20topology.png)
+🛑 1. Traffic Management LAN – Ring Topology
 
----
+Topology: Ring
+Purpose: Continuous and reliable data flow for traffic lights, sensors, and monitoring devices.
 
-## 1. Traffic Management LAN – Ring Topology
+Why Ring Topology?
 
-The **ring topology** is used for the Traffic Management LAN. This is because traffic lights, sensors, and monitoring devices need a **continuous and reliable data flow**. In a ring topology, each device is connected to two others, forming a closed loop. If one link fails, data can still flow in the opposite direction, ensuring smooth operation of traffic systems.
+✅ High reliability through looped paths
 
-**Why Ring Topology?**
+✅ Real-time communication for traffic monitoring
 
-* Offers **high reliability** through looped paths.
-* Ensures **real-time communication**, which is crucial for traffic monitoring.
-* Suitable for systems where **data needs to circulate continuously**.
+✅ Data circulates continuously even if one link fails
 
----
+👮 2. Police Station LAN – Star Topology
 
-## 2. Police Station LAN – Star Topology
+Topology: Star
+Purpose: Centralized network for police workstations, IP phones, and control systems.
 
-The **star topology** connects all police department devices to a central switch. This is ideal for environments where **many devices communicate through a single point**, such as workstations and IP phones.
+Why Star Topology?
 
-**Why Star Topology?**
+✅ Easy to manage and maintain
 
-* **Easy to manage** and set up.
-* **Failure of one device** doesn’t affect the entire network.
-* Centralized structure makes **maintenance and troubleshooting simpler**.
+✅ Failure of one device doesn’t disrupt the network
 
----
+✅ Centralized switch simplifies troubleshooting
 
-## 3. Fire Station LAN – Star Topology
+🚒 3. Fire Station LAN – Star Topology
 
-Similar to the police station, the Fire Station LAN also uses a **star topology**. It allows for **efficient coordination** between fire personnel, control rooms, and emergency devices.
+Topology: Star
+Purpose: Efficient coordination between fire personnel, control rooms, and emergency devices.
 
-**Why Star Topology?**
+Why Star Topology?
 
-* Simple to **expand** as the station grows.
-* Each device has a **dedicated connection**, reducing collisions.
-* Central switch improves **network performance and reliability**.
+✅ Easy to expand as station grows
 
----
+✅ Dedicated connections reduce collisions
 
-## 4. Library LAN – Bus Topology
+✅ Central switch improves performance and reliability
 
-The **bus topology** is used for the Library LAN. This topology is cost-effective and works well for smaller networks where devices share the same communication line.
+📚 4. Library LAN – Bus Topology
 
-**Why Bus Topology?**
+Topology: Bus
+Purpose: Cost-effective network for low-traffic library systems.
 
-* **Economical** and requires less cabling.
-* Good for **simple networks** with minimal traffic.
-* Easy to **add or remove devices** without major changes.
+Why Bus Topology?
 
----
+✅ Economical, minimal cabling
 
-## 5. Power Grid Monitoring LAN – Mesh Topology
+✅ Good for simple networks
 
-The **mesh topology** is implemented for the Power Grid Monitoring LAN. Since the power grid is a **critical infrastructure**, mesh provides **redundancy and high reliability**. Each device is interconnected, ensuring there’s no single point of failure.
+✅ Easy to add or remove devices
 
-**Why Mesh Topology?**
+⚡ 5. Power Grid Monitoring LAN – Mesh Topology
 
-* Offers **maximum fault tolerance**.
-* Allows **multiple communication paths**, which improves reliability.
-* Suitable for critical systems where **continuous monitoring** is essential.
+Topology: Mesh
+Purpose: Reliable monitoring for critical power grid infrastructure.
 
----
+Why Mesh Topology?
 
-## Summary Table
+✅ Maximum fault tolerance
 
-| Department            | Topology | Key Benefit                          |
-| --------------------- | -------- | ------------------------------------ |
-| Traffic Management    | Ring     | Reliability and continuous data flow |
-| Police Station        | Star     | Easy management and troubleshooting  |
-| Fire Station          | Star     | Reliable and expandable structure    |
-| Library               | Bus      | Cost-effective for small networks    |
-| Power Grid Monitoring | Mesh     | High fault tolerance and redundancy  |
+✅ Multiple communication paths for high reliability
 
----
+✅ Continuous monitoring is ensured
 
-## Conclusion
+📊 Summary Table
+Department	Topology	Key Benefit
+🛑 Traffic Management	Ring	Reliability & continuous data flow
+👮 Police Station	Star	Easy management & troubleshooting
+🚒 Fire Station	Star	Reliable & expandable structure
+📚 Library	Bus	Cost-effective for small networks
+⚡ Power Grid Monitoring	Mesh	High fault tolerance & redundancy
+✅ Conclusion
 
-This smart city network topology combines **multiple topologies** to suit the needs of different departments. By doing this, the network achieves a **balance between cost, reliability, and scalability**, making it a solid foundation for a beginner-level smart city project.
+This Smart City network combines multiple topologies to meet the unique requirements of each department.
 
+Benefits:
+
+Balances cost, reliability, and scalability
+
+Ensures continuous communication for critical systems
+
+Provides a strong foundation for beginner-level Smart City projects
