@@ -80,13 +80,16 @@ Why Mesh Topology?
 
 ✅ Continuous monitoring is ensured
 
-📊 Summary Table
-Department	Topology	Key Benefit
-🛑 Traffic Management	Ring	Reliability & continuous data flow
-👮 Police Station	Star	Easy management & troubleshooting
-🚒 Fire Station	Star	Reliable & expandable structure
-📚 Library	Bus	Cost-effective for small networks
-⚡ Power Grid Monitoring	Mesh	High fault tolerance & redundancy
+## 📊 Summary Table
+
+| Department              | Topology | Key Benefit                                  |
+|--------------------------|----------|-----------------------------------------------|
+| 🛑 Traffic Management    | Ring     | Reliability & continuous data flow           |
+| 👮 Police Station        | Star     | Easy management & troubleshooting            |
+| 🚒 Fire Station         | Star     | Reliable & expandable structure              |
+| 📚 Library              | Bus      | Cost-effective for small networks            |
+| ⚡ Power Grid Monitoring | Mesh     | High fault tolerance & redundancy            |
+
 ✅ Conclusion
 
 This Smart City network combines multiple topologies to meet the unique requirements of each department.
