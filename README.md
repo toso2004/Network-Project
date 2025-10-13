@@ -71,12 +71,17 @@ Use Case: Large campuses or enterprise LANs
 
 A Smart City network combines multiple LANs using the most suitable topology for each department:
 
-Department	Topology	Purpose
-🛑 Traffic Management	Ring	Continuous & reliable data flow for lights & sensors
-👮 Police Station	Star	Centralized management & easy troubleshooting
-🚒 Fire Station	Star	Reliable & scalable for emergency coordination
-📚 Library	Bus	Simple & cost-effective for low-traffic networks
-⚡ Power Grid Monitoring	Mesh	Maximum redundancy for critical infrastructure
+Department	--Topology -- Purpose
+
+🛑 Traffic Management --  Ring	 --  Continuous & reliable data flow for lights & sensors
+
+👮 Police Station	-- Star --	Centralized management & easy troubleshooting
+
+🚒 Fire Station	 -- Star	-- Reliable & scalable for emergency coordination
+
+📚 Library	 -- Bus   --	Simple & cost-effective for low-traffic networks
+
+⚡ Power Grid Monitoring -- 	Mesh --	Maximum redundancy for critical infrastructure
 
 All LANs connect to a central distribution layer and router for inter-department communication and internet access.
 
