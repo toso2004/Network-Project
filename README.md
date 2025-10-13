@@ -20,36 +20,51 @@ A network topology defines how devices are connected in a network, influencing d
 **🚌 Bus Topology**
 
 Description: Devices share a single backbone cable.
+
 Pros: Simple & cost-effective for small networks
+
 Cons: Single point of failure; performance drops as devices increase
+
 Use Case: Small or legacy networks
 
 **⭐ Star Topology**
 
 Description: Devices connect to a central switch/hub
+
 Pros: Easy to manage; device failures don’t affect others
+
 Cons: Central device failure disrupts network; more cabling needed
+
 Use Case: Modern LANs in offices and schools
 
 **🔄 Ring Topology**
 
 Description: Devices form a closed loop, passing data sequentially
+
 Pros: Predictable performance; simple data paths
+
 Cons: Single device failure can disrupt network; redundancy required
+
 Use Case: Token Ring networks, specialized LANs
 
 **🌐 Mesh Topology**
 
 Description: Every device connects to every other device
+
 Pros: High redundancy; fault-tolerant
+
 Cons: Expensive & complex; many ports and cables needed
+
 Use Case: Backbones, critical networks
 
 **✨ Extended Star Topology**
 
 Description: Multiple stars interconnected via central distribution switches
+
 Pros: Scalable & reliable
+
 Cons: Central node failure affects multiple segments
+
 Use Case: Large campuses or enterprise LANs
 
 **🏙️ Smart City Network – Topology Overview**
