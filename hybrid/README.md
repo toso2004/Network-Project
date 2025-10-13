@@ -7,10 +7,15 @@ This project demonstrates a Smart City network topology designed to efficiently 
 The smart city network connects the following LANs:
 
 Department	Topology
+
 🛑 Traffic Management	Ring
+
 👮 Police Station	Star
+
 🚒 Fire Station	Star
+
 📚 Library	Bus
+
 ⚡ Power Grid Monitoring	Mesh
 
 Each LAN is designed to meet reliability, scalability, and cost-efficiency requirements for its specific department.
